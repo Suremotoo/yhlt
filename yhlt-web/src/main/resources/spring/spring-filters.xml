@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx.xsd
+     http://www.springframework.org/schema/aop 
+     http://www.springframework.org/schema/aop/spring-aop.xsd
+     http://www.springframework.org/schema/jee 
+     http://www.springframework.org/schema/jee/spring-jee.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/lang
+     http://www.springframework.org/schema/lang/spring-lang.xsd
+     http://www.springframework.org/schema/util
+     http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- cas single sign on -->
+	<bean id="abstractCasConfig" abstract="true">
+		<property name="serverName" value="${cas.server.name}" />
+		<property name="ignoreInitConfiguration" value="true" />
+	</bean>
+
+	<bean id="casFilter" class="com.xzb.showcase.base.filter.AuthenticationFilterProxy"
+		parent="abstractCasConfig">
+		<property name="casServerLoginUrl" value="${cas.server.loginUrl}" />
+		<property name="serverName" value="${cas.server.name}" />
+		<property name="ignoreInitConfiguration" value="true" />
+	</bean>
+	<bean id="ticketValidator"
+		class="org.jasig.cas.client.validation.Cas20ServiceTicketValidator">
+		<constructor-arg type="java.lang.String" value="${cas.server.urlPrefix}" />
+		<property name="encoding" value="UTF-8" />
+	</bean>
+	<bean id="casValidationFilter"
+		class="com.xzb.showcase.base.filter.Cas20ProxyReceivingTicketValidationFilterProxy"
+		parent="abstractCasConfig">
+		<property name="ticketValidator" ref="ticketValidator" />
+		<property name="redirectAfterValidation" value="true"></property>
+	</bean>
+</beans>

@@ -1,0 +1,347 @@
+body{
+	font-family: Tahoma, "ËÎÌו", Helvetica, Arial, sans-serif;
+}
+.header{
+	height:70px;
+	width:100%;
+	position:relative;
+	z-index:200;
+}
+.header-main{
+	height: 100%;
+    margin: auto;
+    position: relative;
+    width: 1000px;	
+}
+.logo{
+	display:block;
+	margin-left:50px;
+	margin-top: 5px;
+	float:left;
+	height:60px;
+	max-width:300px;
+	*width:300px;
+}
+.logo img{
+	height:60px;
+	margin:0;
+	max-width:300px;
+	*width:300px;
+}
+.nav-right{
+	display:block;
+	height:50px;
+	margin-top:22px;
+	float:right;
+	margin-right:50px;
+}
+.nav-right li{
+	display:block;
+	float:left;
+	*width:80px;
+	min-width:80px;
+	margin-left:20px;
+	line-height:23px;
+	height:25px;
+}
+.nav-right li a{
+	white-space:nowrap;
+}
+.nav-right .lang{
+	border: 1px solid #319ce4;
+    color: #319ce4;
+    cursor: pointer;
+    height: 28px;
+    min-width: 100px;
+    position: relative;
+}
+.lang{
+	min-width:100px;
+	position:relative;
+}
+.lang span{
+	display:block;
+	line-height: 26px;
+    margin-left: 24px;
+    margin-right: 25px;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+.lang i{
+	display:block;
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:5px;
+	left:4px;
+}
+.lang .zh-cn,.lang .zh-tw{
+	background:url("lang_zh_cn.png") no-repeat scroll 0 0;
+}
+.lang .en{
+	background:url("lang_en.png") no-repeat scroll 0 0;
+}
+.lang .jp{
+	background:url("lang_jp.png") no-repeat scroll 0 0;
+}
+.lang-box .lang b{
+	background-image:none;
+}
+.lang b{
+	background:url("arrow-down.png") no-repeat scroll 0 0;
+	display:block;
+	width:24px;
+	height:24px;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.lang-box{
+	background: #ebebeb none repeat scroll 0 0;
+	border:1px solid #ddd;
+    min-height: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    min-width: 100px;
+}
+.lang-box a{
+	display: block;
+    height: 28px;
+    line-height: 26px;
+    overflow: hidden;
+    width: 100%;
+}
+.lang-box a:hover{
+	background-color:#fff;
+	text-decoration:none;
+}
+.center{
+	background:none repeat scroll 0 0 #2f9fe7;
+	width:100%;
+	z-index:100;
+	background: url("background.jpg") no-repeat scroll 0 0;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+.main-box{
+	background-color:rgba(255,255,255,0.7);
+	width:1000px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2ffffff,endColorstr=#B2ffffff);
+}
+.systeminfo-box{
+	background-color:rgba(255,255,255,0);
+	width:500px;
+	height:360px;
+	position:absolute;
+	top:120px;
+	left:60px;
+}
+
+.login-shadow{
+    background:url("login-shadow.png") no-repeat scroll 0 0;
+    height: 91px;
+    left: 610px;
+    position: absolute;
+    top: 480px;
+    width: 300px;
+}
+.login-box{
+	background:url("login-box-2.png") no-repeat scroll 0 0;
+	width:300px;
+	height:380px;
+	position:absolute;
+}
+.login-box.single{
+	background:url("../images/hello/login-box-single.png") no-repeat scroll 0 0;
+}
+.login-box .title span{
+	color: #fff;
+    display: block;
+    float: left;
+    font-size: 18px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 150px;
+}
+.login-box .title font{
+	margin-left:10%;
+}
+.login-box .title span.active{
+	color:#aaa;
+}
+.span-account,.span-qrcode{
+	cursor:pointer;
+}
+.login-account{
+	padding: 20px 20px;
+    position: absolute;
+    top: 50px;
+    right:50px;
+    width: 210px;
+}
+.login-account .input-item{
+    height: 40px;
+    margin-bottom: 35px;
+    width: 100%;
+    position:relative;
+}
+.input-item input{
+	font-size: 14px;
+    height: 38px;
+    padding-left: 36px;
+    padding-right: 10px;
+    margin-top:20px;
+    width: 100%;
+}
+.input-item .placeholder-pwd,
+.input-item .placeholder-user,
+.input-item .placeholder-valid{
+	color: #999;
+	display:block;
+    position: absolute;
+    width:150px;
+    height:38px;
+    line-height:36px;
+    font-size:14px;
+    right:0; 
+    top:0;
+    text-align:left;
+    left:38px;
+    margin-top:25px;
+}
+.input-item .placeholder-valid{
+    width:80px;
+    right:100px; 
+    text-align:left;
+}
+.input-item .ico-valid{
+	background-image: url("ico-valid.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+	float:left;
+	width:145px;
+}
+.validimg{
+	width:80px;
+	height:38px;
+	position:absolute;
+	left:149px;
+}
+.login-qrcode{
+	padding: 20px 35px;
+    position: absolute;
+    top: 50px;
+    right:0;
+    width: 100%;
+}
+.login-btn{
+	background-color: #4d9bd7;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top:80px;
+    width: 122%;
+}
+.login-btn:hover{
+	background-color:#247ad2;
+	color:#fff;
+	text-decoration:none;
+}
+.qr-box img{
+	margin-left:15px;
+}
+.qr-box p{
+	width:230px;	
+}
+.footer{
+	height:60px;
+	width:100%;
+	text-align:center;
+	padding:15px;
+}
+.footer p{
+	margin:0;	
+	z-index:100;
+}
+.dialog_box{
+	height:auto;
+    left: 50%;
+    position: absolute;
+    top: 100px;
+    width:auto;
+    z-index:301;
+}
+
+.QrDialog{
+	background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+    height: 400px;
+    left:-50%;
+    position: relative;
+    width: 300px;
+    z-index:302;
+}
+.QrDialog_body{
+	padding:40px;
+	position:relative;
+}
+.QrDialog_close{
+	background:url("btn_close.png") no-repeat scroll 0 0;
+    corsur:pointer;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 16px;
+}
+.qr_success,.qr_error{
+	display:none;
+	width:100%;
+	heigth:100%;
+}
+.qr_success img{
+	width:220px;
+}
+.qr_error img{
+	margin-left:47px;
+	margin-top:47px;
+	width:128px;
+	heigth:128px;
+}
+.qr_success p{
+	
+}
+.qr_error p{
+	text-align:center;
+}
+.QrMask{
+	background-attachment: scroll;
+    background-color: #000;
+    background-image: none;
+    background-repeat: repeat;
+    bottom: 0;
+    display: none;
+    filter:Alpha(opacity=50);
+    height:100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:100%;
+    z-index: 300;
+}
+

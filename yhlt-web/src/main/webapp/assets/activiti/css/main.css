@@ -1,0 +1,19 @@
+table input,textarea{
+	width:100%;
+}
+
+.tr1{
+	height:25px;
+}
+
+.tr2{
+	height:50px;
+}
+
+.tr3{
+	height:70px;
+}
+
+.title{
+	text-align: center;
+}

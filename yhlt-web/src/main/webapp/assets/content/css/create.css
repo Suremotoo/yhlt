@@ -1,0 +1,81 @@
+body {
+	background: rgb(235, 235, 235); color: rgb(102, 102, 102); font-size: 13px;
+}
+* {
+	margin: 0px; padding: 0px;
+}
+.red {
+	color: rgb(255, 0, 0);
+}
+.margin_780_center {
+	margin: 10px auto 100px; width: 780px;
+}
+.form_input_area {
+	margin: 10px 0px; border: 1px solid rgb(128, 128, 128);
+}
+.form_input_area > li {
+	padding: 2px 0px; width: 100%; display: inline-block;
+}
+.form_input_area > li.Annual_leave {
+	
+}
+.form_input_area > li.file-control {
+	padding: 15px; text-align: right; float: right;
+}
+.form_input_area > li.file-control .tip {
+	padding: 0px 10px;
+}
+.form_input_area > li.form-title {
+	padding: 10px; width: auto; color: rgb(255, 255, 255); font-weight: bold; margin-bottom: 8px; border-bottom-color: rgb(81, 121, 192); border-bottom-width: 3px; border-bottom-style: solid; display: block; background-color: rgb(141, 163, 203);
+}
+.form_input_area > li > div {
+	width: 250px; height: 100%; float: left;
+}
+.form_input_area > li > div.one_line {
+	width: 86%;
+}
+.form_input_area .parameter_name {
+	width: 100px; height: 100%; text-align: right; line-height: 25px; float: left;
+}
+.form_input_area .parameter_input {
+	width: 150px; height: 100%; line-height: 25px; float: left;
+}
+.form_input_area > li.Last_leave_time {
+	padding: 20px 0px 20px 175px; display: none;
+}
+.form_input_area > li > div.one_line .parameter_name {
+	width: 15%;
+}
+.form_input_area > li > div.one_line .parameter_input {
+	width: 84%;
+}
+.form_input_area .parameter_input input {
+	border-radius: 5px; width: 153px; height: 23px; line-height: 23px; font-size: 13px; vertical-align: bottom;
+}
+.form_input_area .parameter_input textarea {
+	border-radius: 5px; width: 153px; height: 23px; line-height: 23px; font-size: 13px; vertical-align: bottom;
+}
+.form_input_area .parameter_input select {
+	border-radius: 5px; width: 153px; height: 23px; line-height: 23px; font-size: 13px; vertical-align: bottom;
+}
+.form_input_area .parameter_input input[disabled] {
+	background-color: rgb(235, 235, 228);
+}
+.form_input_area .parameter_input textarea[disabled] {
+	background-color: rgb(235, 235, 228);
+}
+.form_input_area .parameter_input select[disabled] {
+	background-color: rgb(235, 235, 228);
+}
+.form_input_area .one_line .parameter_input input {
+	width: 653px;
+}
+.form_input_area .one_line .parameter_input textarea {
+	width: 653px;
+}
+.form_input_area .one_line .parameter_input select {
+	width: 653px;
+}
+.form_input_area .one_line .parameter_input textarea {
+	height: 100px;
+}

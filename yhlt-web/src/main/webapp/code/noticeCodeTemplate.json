@@ -1,0 +1,140 @@
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td colspan="2" style="width:168px;height:24px;">
+				<p align="center">
+					<strong>项目</strong></p>
+			</td>
+			<td style="width:60px;height:24px;">
+				<p align="center">
+					<strong>分值</strong></p>
+			</td>
+			<td style="width:381px;height:24px;">
+				<p align="center">
+					<strong>评分细则</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:72px;height:77px;">
+				<p align="center">
+					商务部分</p>
+				<p align="center">
+					5分</p>
+			</td>
+			<td style="width:96px;height:67px;">
+				<p align="center">
+					企业业绩</p>
+			</td>
+			<td style="width: 60px; height: 67px; background: ;">
+				<p align="center">
+					5</p>
+			</td>
+			<td style="width:381px;height:67px;">
+				<p>
+					投标人应提供近三年与本次招标设备类似的合同业绩，每份合同得1分。（提供合同原件）最高分值不超过5分。</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:72px;height:66px;">
+				<p align="center">
+					技术部分</p>
+				<p align="center">
+					55分</p>
+			</td>
+			<td style="width:96px;height:66px;">
+				<p align="center">
+					设备品质</p>
+			</td>
+			<td style="width: 60px; height: 66px; background: ;">
+				<p align="center">
+					20</p>
+			</td>
+			<td style="width:381px;height:66px;">
+				<p>
+					比较各投标产品设备水平能代表当前国际和国内前沿技术水平较高，配置的相关产品部件的知名度较高、品质优良、完善、实用性较强的得18~22分，品质良好的得11~17分，一般的得6~10分。</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:72px;height:66px;">
+				<p align="center">
+					技术部分</p>
+				<p align="center">
+					55分</p>
+			</td>
+			<td style="width:96px;height:60px;">
+				<p align="center">
+					投标响应</p>
+			</td>
+			<td style="width: 60px; height: 60px; background: ;">
+				<p align="center">
+					15</p>
+			</td>
+			<td style="width:381px;height:60px;">
+				<p>
+					技术指标完全满足招标文件的要求，各种技术参数、性能相对优良，生产工艺先进、操作系统完善且可靠的得11~15分，一般的得7~10分；技术指标主要参数不能满足要求的不得分。</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:72px;height:66px;">
+				<p align="center">
+					技术部分</p>
+				<p align="center">
+					55分</p>
+			</td>
+			<td style="width:96px;height:42px;">
+				<p align="center">
+					产品及材料质量</p>
+			</td>
+			<td style="width: 60px; height: 42px; background: ;">
+				<p align="center">
+					12</p>
+			</td>
+			<td style="width:381px;height:42px;">
+				<p>
+					根据所投设备及材料品质、性能状况、配备情况、质量可靠性优、运行费用低得8~12分；一般得4~7分，不满足要求不得分。</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:72px;height:66px;">
+				<p align="center">
+					技术部分</p>
+				<p align="center">
+					55分</p>
+			</td>
+			<td style="width:96px;height:73px;">
+				<p align="center">
+					售后服务</p>
+			</td>
+			<td style="width: 60px; height: 73px; background: ;">
+				<p align="center">
+					8</p>
+			</td>
+			<td style="width:381px;height:73px;">
+				<p>
+					售后服务承诺细致，具有详细的维修计划和处理办法，具有专业服务队伍。由评委根据各投标人的情况进行综合打分。</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:168px;height:73px;">
+				<p align="center">
+					价格部分</p>
+				<p align="center">
+					40分</p>
+			</td>
+			<td style="width:96px;height:73px;">
+				<p align="center">
+					投标报价</p>
+			</td>
+			<td style="width: 60px; height: 73px; background: ;">
+				<p align="center">
+					40</p>
+			</td>
+			<td style="width:381px;height:73px;">
+				<p>
+					满足招标文件要求且投标价最低的投标报价为评标基准价，其价格分为满分。其他投标人的价格分统一按照下列公式计算：</p>
+				<p>
+					投标报价得分=(评标基准价／投标报价)&times;价格权值&times;100</p>
+			</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.flash{
+	margin-top:85px;
+	position: relative;
+	text-align: center;
+}
+#iat {
+	height: 165px;
+	width: 255px;
+}
+
+
+
+
+
+
+#local_flash embed{
+	position:relative;
+	margin:auto; 
+	padding:0px; 
+	z-index: 1;
+}
+/*============scrollbar==================*/

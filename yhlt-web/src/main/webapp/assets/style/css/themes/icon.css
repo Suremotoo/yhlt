@@ -1,0 +1,95 @@
+.icon-blank{background:url('icons/blank.gif') no-repeat center center;}
+
+.icon-add{background:url('icons/edit_add.png') no-repeat center center;}
+
+.icon-edit{background:url('icons/pencil.png') no-repeat center center;}
+.icon-remove{
+	background:url('icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('icons/tip.png') no-repeat center center;
+}
+
+.icon-mini-add{
+	background:url('icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('icons/mini_refresh.png') no-repeat center center;
+}
+
+
+/*.icon-t1{ background:url(../../images/icons/project_a.png) no-repeat 18px 10px ;}
+.icon-t2{ background:url(icons/t2.png) no-repeat 20px center;}
+.icon-t3{ background:url(icons/t3.png) no-repeat 20px center;}
+.icon-t4{ background:url(icons/t4.png) no-repeat 20px center;}
+.icon-t5{ background:url(icons/t5.png) no-repeat 20px center;}
+.icon-t6{ background:url(icons/t6.png) no-repeat 20px center;}
+.icon-t7{ background:url(icons/t7.png) no-repeat 20px center;}
+.icon-t8{ background:url(icons/t8.png) no-repeat 20px center;}
+.icon-t9{ background:url(icons/t9.png) no-repeat 20px center;}
+.icon-t10{ background:url(icons/t10.png) no-repeat 20px center;}*/
+
+/*.lutub{width: 143px; height: 22px; display: block;  padding-top: 12px;  padding-left: 45px;}
+
+.lutub1{background:url(../../images/icons/project_a.png) no-repeat 18px 10px;}
+.lutub2{background:url(../../images/icons/accounting_a.png) no-repeat 18px 10px;}
+.lutub3{background:url(../../images/icons/engineering_a.png) no-repeat 18px 10px;}
+.lutub4{background:url(../../images/icons/materal_a.png) no-repeat 18px 10px;}
+.lutub5{background:url(../../images/icons/financial_a.png) no-repeat 18px 10px;}
+
+
+.lutub1.selected{background:url(../../images/icons/project_h.png) no-repeat 18px 10px;}
+.lutub2.selected{background:url(../../images/icons/accounting_h.png) no-repeat 18px 10px;}
+.lutub3.selected{background:url(../../images/icons/engineering_h.png) no-repeat 18px 10px;}
+.lutub4.selected{background:url(../../images/icons/materal_h.png) no-repeat 18px 10px;}
+.lutub5.selected{background:url(../../images/icons/financial_h.png) no-repeat 18px 10px;}*/
+
+
+
+.field-validation-error{background:url(images/icons.png) no-repeat 0px -271px;padding-left:18px; margin-bottom:-3px;color: #ff0000;}
+.field-validation-valid{display: none;}
+input.input-validation-error,select.input-validation-error{border: 1px solid #ff0000;background-color: #ffeeee;}
+.validation-summary-errors{font-weight: bold;color: #ff0000;}
+.validation-summary-valid{display: none;}

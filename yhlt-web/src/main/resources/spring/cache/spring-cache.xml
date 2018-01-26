@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p" 
+    xmlns:cache="http://www.springframework.org/schema/cache" 
+    xsi:schemaLocation="    
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd    
+            http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd"> 
+ 
+    <!-- 指定ehcache.xml的位置 --> 
+    <!-- cacheFlag表示是否启用ehcache，必须和ehcacheManager的globalFlag配合使用 -->
+    <!-- 启用cache：cacheFlag=true，globalFlag=true ，此时客户端启动会连接terracotta-->
+    <!-- 不启用cache：cacheFlag=false，globalFlag=false ，此时客户端启动不会连接terracotta -->
+    <bean id="cacheManagerFactory" 
+        class="com.xzb.showcase.base.cache.ehcache.EhcacheManagerFactoryBeanProxy" 
+        p:configLocation="classpath:/spring/cache/ehcache.xml" 
+        p:shared="true" 
+        p:cacheFlag="${terracotta.enable}"
+    /> 
+ 
+    <!-- 声明缓存Manager --> 
+    <!-- globalFlag表示是否到ehcache里取cache -->
+    <!-- 值为true表示根据cache的名字到ehcache里取cache -->
+    <!-- 值为false表示是取的本地内存的cache，不到ehcache取 -->
+    <bean id="ehcacheManager" class="com.xzb.showcase.base.cache.ehcache.EhcacheCacheManagerProxy">
+    	<property name="cacheManager" ref="cacheManagerFactory"/>
+    	<property name="globalFlag" value="${terracotta.enable}" />
+    </bean>  
+   	<!-- session缓存 -->
+<!-- 	<bean id="sessionService" class="com.xzb.showcase.base.session.service.impl.SessionServiceImpl"> -->
+<!-- 		<property name="cacheManager" ref="ehcacheManager"/> -->
+<!-- 		<property name="cacheName" value="session"/> -->
+<!-- 	</bean> -->
+</beans> 

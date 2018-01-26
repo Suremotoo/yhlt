@@ -1,0 +1,2 @@
+将jacob.dll文件放在JDK的bin目录，同时放在相应JRE的BIN目录
+SWFTOOLS的安装路径不要有空格program file这样的不可以
